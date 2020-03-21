@@ -5,12 +5,33 @@
 }
 
 .bg-img {
-
   background: 
   radial-gradient(circle farthest-corner at 75% 0%, #90C92A 0%, #90C92A 45%, #62C30F 45%);
-  color: white;
   height: 700px;
-  display: block;
-  text-align: center;
-  line-height: 50px;
+  z-index:-1;
+}
+
+.fa-heart {
+  transform: rotate(0deg);
+  animation-name: heartbeat;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes heartbeat{
+0% {
+  transform: scale(1) rotate(0deg);
+}
+ 50% {
+  transform: scale(0.6) rotate(0deg);
+}
+}
+
+.border-round {
+  background-color: #8ED455;
+}
+
+nav a {
+  font-size: 20px;
+  text-decoration: none;
 }
