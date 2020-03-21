@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-img {
+
+  background: 
+  radial-gradient(circle farthest-corner at 75% 0%, #90C92A 0%, #90C92A 45%, #62C30F 45%);
+  color: white;
+  height: 700px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+}
