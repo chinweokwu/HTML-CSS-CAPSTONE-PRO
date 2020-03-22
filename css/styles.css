@@ -35,3 +35,22 @@ nav a {
   font-size: 20px;
   text-decoration: none;
 }
+
+.header-button {
+  height: 50px;
+  background: #D8055A;
+}
+
+.flower-vase {
+  position: absolute;
+ right: 100px;
+}
+
+.header-text {
+  margin-top: 130px;
+}
+
+.header-phone {
+  margin-top: 200px;
+  font-size: 20px;
+}
