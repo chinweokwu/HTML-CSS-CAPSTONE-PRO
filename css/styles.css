@@ -28,6 +28,12 @@
 
 .border-round {
   background-color: #8ED455;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  
 }
 
 nav a {
@@ -37,7 +43,7 @@ nav a {
 
 .header-button {
   height: 50px;
-  background: #D8055A;
+  background: #d8055a;
 }
 
 .flower-vase {
@@ -119,4 +125,27 @@ nav a {
 .uil-facebook-f,
 .uil-whatsapp {
   font-size: 20px;
+}
+
+.bg-list {
+  background: radial-gradient(circle farthest-corner at 75% 0%, #90C92A 0%, #90C92A 45%, #62C30F 45%);
+  height: 150px;
+  z-index: -1;
+}
+
+.product-button {
+  background: #d8055a;
+  color: whitesmoke;
+}
+
+.cbox {
+  border:1px solid red;
+}
+
+.fa-canadian-maple-leaf:hover {
+  color: white;
+}
+
+.circle {
+  color: #8ed455;
 }
