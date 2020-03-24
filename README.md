@@ -1,8 +1,25 @@
 # HTML-CSS-CAPSTONE-PRO
 
-> This is a newyork times clone, which me and my partner mora managed to clone using pure HTML and CSS, and we suggested to name it ny-clone.
+ Responsive E-commerce style website(Capstone).
 
-![screenshot](./Screenshotny-clone.png)
+- It's a real-world-like project, built with business specifications.
+
+![screenshot](images/Screenshot.png)
+
+A video review of this project by Morah Paul on [Loom-click-here]()
+
+Additional description about the project and its features.
+
+- The project contains the main page, with a menu link to the list of products page, the   list of products page, each product links to the product page, the product page.
+
+- Each of these pages have versions for 2 different screen sizes: 
+    - mobile & tablet: up to 1024px
+    - desktop: from 1024px
+
+Project anchor tags (links) are only simulations of what could be or would be a functional A tag (they are not meant to redirect only simulate.). 
+
+
+> Note: Project was designed for screens of 320px width and above. 
 
 ## Built With
 
