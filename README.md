@@ -6,7 +6,7 @@
 
 ![screenshot](images/Screenshot.png)
 
-A video review of this project by Morah Paul on [Loom-click-here]()
+A video review of this project by Morah Paul on [Loom-click-here](https://www.loom.com/share/f68b19d85169438f85f90893a3e67a16)
 
 Additional description about the project and its features.
 
