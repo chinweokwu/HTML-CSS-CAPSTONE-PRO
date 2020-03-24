@@ -163,3 +163,7 @@ input[type="checkbox"]{
 .price-button {
   width: 200px;
 }
+
+.line {
+  text-decoration: line-through;
+}
