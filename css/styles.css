@@ -5,7 +5,7 @@
 }
 
 .bg-img {
-  background: radial-gradient(circle farthest-corner at 75% 0%, #90C92A 0%, #90C92A 45%, #62C30F 45%);
+  background: radial-gradient(circle farthest-corner at 75% 0%, #90c92a 0%, #90c92a 45%, #62c30f 45%);
   height: 730px;
   z-index: -1;
 }
@@ -17,22 +17,23 @@
   animation-iteration-count: infinite;
 }
 
-@keyframes heartbeat{
-0% {
-  transform: scale(1) rotate(0deg);
-}
- 50% {
-  transform: scale(0.6) rotate(0deg);
-}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+
+  50% {
+    transform: scale(0.6) rotate(0deg);
+  }
 }
 
 .border-round {
-  background-color: #8ED455;
+  background-color: #8ed455;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   text-align: center;
-  vertical-align: middle; 
+  vertical-align: middle;
 }
 
 nav a {
@@ -66,7 +67,7 @@ nav a {
 .pink-flowers {
   max-width: 540px;
   height: 250px;
-  background: #FCFCFC;
+  background: #fcfcfc;
 }
 
 .price-tag {
@@ -92,8 +93,7 @@ nav a {
 }
 
 .bg-imgs {
-  background: 
-  radial-gradient(circle farthest-corner at 75% 0%, #90C92A 0%, #90C92A 45%, #62C30F 45%);
+  background: radial-gradient(circle farthest-corner at 75% 0%, #90c92a 0%, #90c92a 45%, #62c30f 45%);
   height: 600px;
   z-index: -1;
 }
@@ -127,7 +127,7 @@ nav a {
 }
 
 .bg-list {
-  background: radial-gradient(circle farthest-corner at 75% 0%, #90C92A 0%, #90C92A 45%, #62C30F 45%);
+  background: radial-gradient(circle farthest-corner at 75% 0%, #90c92a 0%, #90c92a 45%, #62c30f 45%);
   height: 150px;
   z-index: -1;
 }
@@ -138,7 +138,7 @@ nav a {
 }
 
 .cbox {
-  border:1px solid red;
+  border: 1px solid red;
 }
 
 .fa-canadian-maple-leaf:hover {
@@ -149,9 +149,9 @@ nav a {
   color: #8ed455;
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
   width: 20px;
-  height: 20px; 
+  height: 20px;
   vertical-align: middle;
 }
 
