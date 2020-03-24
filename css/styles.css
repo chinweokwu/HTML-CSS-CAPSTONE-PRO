@@ -149,3 +149,18 @@ nav a {
 .circle {
   color: #8ed455;
 }
+
+input[type="checkbox"]{
+  width: 20px;
+  height: 20px; 
+  vertical-align: middle;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.price-button {
+  width: 200px;
+}
