@@ -15,77 +15,87 @@
 </head>
 
 <body>
-  <div class="bg-list">
-    <nav class=" container d-none d-lg-block">
-      <div class="d-flex justify-content-between">
-        <!-- left nav -->
-        <div class="logo-section d-flex mt-5">
-          <a href="#">
-            <i class="fas fa-fan text-light fa-2x"></i>
-          </a>
-          <p class="text-light ml-3 p-2">
-            <a href="#" class="text-light">Fleur flowers</a>
-          </p>
-        </div>
-        <!-- right nav-->
-        <ul class="nav mt-5">
-          <li class="">
-            <a class="nav-link text-light" href="index.html">Main Page</a>
-          </li>
-          <li class="">
-            <a class="nav-link text-light ml-2" href="productlist.html">Product List</a>
-          </li>
-          <li class="">
-            <a class="nav-link text-light ml-2" href="productpage.html">Product Page</a>
-          </li>
-          <li class="border-round  text-center ml-3 pt-1">
-            <a class="nav-link " href="#">
-              <i class="fas fa-heart text-white "></i>
-            </a>
-          </li>
-          <li class=" border-round bg-danger ml-4 text-center pt-1">
-            <a class="nav-link" href="#">
-              <i class="fas fa-shopping-cart  text-light"></i>
-            </a>
-          </li>
-        </ul>
+    <div class="bg-list">
+        <nav class=" container d-none d-lg-block">
+          <div class="d-flex justify-content-between">
+            <!-- left nav -->
+            <div class="logo-section d-flex mt-5">
+              <a href="#">
+                <i class="fas fa-fan text-light fa-2x"></i>
+              </a>
+              <p class="text-light ml-3 p-2">
+                <a href="#" class="text-light">Fleur flowers</a>
+              </p>
+            </div>
+            <!-- right nav-->
+            <ul class="nav mt-5">
+                <li class="">
+                  <a class="nav-link text-light" href="index.html">Main Page</a>
+                </li>
+                <li class="">
+                  <a class="nav-link text-light ml-2" href="productlist.html">Product List</a>
+                </li>
+                <li class="">
+                  <a class="nav-link text-light ml-2" href="productpage.html">Product Page</a>
+                </li>
+                <li class="border-round  text-center ml-3 pt-1">
+                  <a class="nav-link " href="#">
+                    <i class="fas fa-heart text-white "></i>
+                  </a>
+                </li>
+                <li class=" border-round bg-danger ml-4 text-center pt-1">
+                  <a class="nav-link" href="#">
+                    <i class="fas fa-shopping-cart  text-light"></i>
+                  </a>
+                </li>
+              </ul>
+          </div>
+        </nav>
+
+        <!-- small screen  -->
+        <nav class="container d-lg-none d-sm-block d-md-block justify-content-around">
+            <div class="d-flex justify-content-between">
+              <!-- left nav -->
+              <div class="logo-section d-flex mt-5">
+                <a href="#">
+                  <i class="fas fa-fan text-light fa-2x p-2"></i>
+                </a>
+                <p class="text-light ml-3 pt-3">
+                  <a href="#" class="text-light ">Fleur flowers</a>
+                </p>
+              </div>
+              <!-- right nav-->
+              <ul class="nav mt-5">
+                <li>
+                  <button class="navbar-toggler border-round" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                    <span class=" ">
+                      <i class=" fas fa-bars bar text-light"></i>
+                    </span>
+                  </button>
+                  <div class=" dropdown-menu nava" id="navNavbar" aria-labelledby="dropdownMenuButton">
+                      <ul class="navbar-nav mr-auto ">
+                      <li><a href="index.html" class=" text-dark dropdown-item">Main Page</a></li>
+                      <li><a href="productlist.html" class=" text-dark dropdown-item">Product List</a></li>
+                      <li><a href="productpage.html" class=" text-dark dropdown-item">Product Page</a></li>  
+                    </ul>
+                  </div>
+                </li>
+                <li class="border-round  text-center ml-3 pt-1">
+                    <a class="nav-link " href="#">
+                      <i class="fas fa-heart text-white "></i>
+                    </a>
+                  </li>
+                  <li class=" border-round bg-danger ml-4 text-center pt-1">
+                    <a class="nav-link" href="#">
+                      <i class="fas fa-shopping-cart  text-light"></i>
+                    </a>
+                  </li>
+              </ul>
+            </div>
+          </nav>  
       </div>
-    </nav>
-    <!-- small screen  -->
-    <nav class="container d-lg-none d-sm-block d-md-block justify-content-around">
-      <div class="d-flex justify-content-between">
-        <!-- left nav -->
-        <div class="logo-section d-flex mt-5">
-          <a href="#">
-            <i class="fas fa-fan text-light fa-2x p-2"></i>
-          </a>
-          <p class="text-light ml-3 pt-3">
-            <a href="#" class="text-light ">Fleur flowers</a>
-          </p>
-        </div>
-        <!-- right nav-->
-        <ul class="nav mt-5">
-          <li>
-            <button class="navbar-toggler border-round" type="button">
-              <span class=" ">
-                <i class=" fas fa-bars bar text-light"></i>
-              </span>
-            </button>
-          </li>
-          <li class="border-round  text-center ml-3 pt-1">
-            <a class="nav-link " href="#">
-              <i class="fas fa-heart text-white "></i>
-            </a>
-          </li>
-          <li class=" border-round bg-danger ml-4 text-center pt-1">
-            <a class="nav-link" href="#">
-              <i class="fas fa-shopping-cart  text-light"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+
   <main class="container mb-5 d-none d-lg-block">
     <div class="row">
       <div class="col my-5">
@@ -115,34 +125,34 @@
               <label for="vehicle1">
               <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" class="text-center">
                I have a bike</label><br>
-               <label for="vehicle1">
+               <label for="vehicle2">
               <input type="checkbox" id="vehicle2" name="vehicle1" value="Bike">
                I have a bike</label><br>
-               <label for="vehicle1">
+               <label for="vehicle3">
               <input type="checkbox" id="vehicle3" name="vehicle1" value="Bike" checked>
                I have a bike</label><br>
-               <label for="vehicle2"> 
+               <label for="vehicle4"> 
               <input type="checkbox" id="vehicle4" name="vehicle2" value="Car">
               I have a car</label><br>
-              <label for="vehicle3"> 
+              <label for="vehicle5"> 
               <input type="checkbox" id="vehicle5" name="vehicle3" value="Boat" class="cbox">
               I have a boat</label><br><br>
             </form>
             <h5>Segment</h5>
             <form>
-              <label for="vehicle1">
+              <label for="vehicle6">
               <input type="checkbox" id="vehicle6" name="vehicle1" value="Bike">
                I have a bike</label><br>
-               <label for="vehicle2">
+               <label for="vehicle7">
               <input type="checkbox" id="vehicle7" name="vehicle2" value="Car" checked>
                I have a car</label><br>
-               <label for="vehicle1">
+               <label for="vehicle8">
               <input type="checkbox" id="vehicle8" name="vehicle1" value="Bike">
                I have a bike</label><br>
-               <label for="vehicle1">
+               <label for="vehicle9">
               <input type="checkbox" id="vehicle9" name="vehicle1" value="Bike">
                I have a bike</label><br>
-               <label for="vehicle3">
+               <label for="vehicle10">
               <input type="checkbox" id="vehicle10" name="vehicle3" value="Boat">
                I have a boat</label><br><br>
               <input type="submit" value="Submit" class="form-control rounded-pill product-button">
@@ -292,7 +302,7 @@
     </div>
   </main>
   <!-- small and medium screens -->
-  <main class="container d-lg-none d-sm-block d-md-block">
+  <section class="container d-lg-none d-sm-block d-md-block">
     <div class="row">
       <div class="col my-5">
         <h4> LOREM IPSUM DOLORSIT</h4>
@@ -339,12 +349,11 @@
         <a href="#"><i class="fas fa-circle pl-2 circle"></i></a>
       </div>
     </div>
-  </main>
+  </section>
   <!-- footer map -->
   <footer class="d-none d-lg-block">
     <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.022817277795!2d7.402674314284639!3d10.419762318525988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104d365d9a76a9ed%3A0x2fbeeeeeb4449e7c!2sGonin%20Gora%2C%20Goni%20Gora%2C%20Kaduna!5e0!3m2!1sen!2sng!4v1585101060545!5m2!1sen!2sng"
-      frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0" class="w-100 iframe"></iframe>
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.022817277795!2d7.402674314284639!3d10.419762318525988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104d365d9a76a9ed%3A0x2fbeeeeeb4449e7c!2sGonin%20Gora%2C%20Goni%20Gora%2C%20Kaduna!5e0!3m2!1sen!2sng!4v1585101060545!5m2!1sen!2sng" allowfullscreen="" aria-hidden="false" tabindex="0" class="w-100 iframe"></iframe>
   </footer>
 </body>
 

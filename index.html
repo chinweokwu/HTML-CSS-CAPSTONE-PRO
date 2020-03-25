@@ -81,11 +81,19 @@
         <!-- right nav-->
         <ul class="nav mt-5">
           <li>
-            <button class="navbar-toggler border-round" type="button" >
+            <button class="navbar-toggler border-round" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
               <span class=" ">
                 <i class=" fas fa-bars bar text-light"></i>
               </span>
             </button>
+            <div class=" dropdown-menu nava" id="navNavbar" aria-labelledby="dropdownMenuButton">
+                <ul class="navbar-nav mr-auto ">
+                <li><a href="index.html" class=" text-dark dropdown-item">Main Page</a></li>
+                <li><a href="productlist.html" class=" text-dark dropdown-item">Product List</a></li>
+                <li><a href="productpage.html" class=" text-dark dropdown-item">Product Page</a></li>  
+              </ul>
+            </div>
           </li>
           <li class="border-round  text-center ml-3 pt-1">
               <a class="nav-link " href="#">
@@ -440,7 +448,7 @@
   </section>
   <!-- footer map -->
   <footer class="d-none d-lg-block">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.022817277795!2d7.402674314284639!3d10.419762318525988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104d365d9a76a9ed%3A0x2fbeeeeeb4449e7c!2sGonin%20Gora%2C%20Goni%20Gora%2C%20Kaduna!5e0!3m2!1sen!2sng!4v1585101060545!5m2!1sen!2sng" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0" class="w-100 iframe"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.022817277795!2d7.402674314284639!3d10.419762318525988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104d365d9a76a9ed%3A0x2fbeeeeeb4449e7c!2sGonin%20Gora%2C%20Goni%20Gora%2C%20Kaduna!5e0!3m2!1sen!2sng!4v1585101060545!5m2!1sen!2sng" allowfullscreen="" aria-hidden="false" tabindex="0" class="w-100 iframe"></iframe>
   </footer>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

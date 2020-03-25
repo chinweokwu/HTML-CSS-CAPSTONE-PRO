@@ -176,3 +176,7 @@ input[type="checkbox"] {
 .image-sizing {
   max-width: 180px;
 }
+
+.nava {
+  background: radial-gradient(circle farthest-corner at 75% 0%, #90c92a 0%, #90c92a 45%, #62c30f 45%);
+}
