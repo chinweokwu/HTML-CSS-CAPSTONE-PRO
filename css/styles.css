@@ -167,3 +167,8 @@ input[type="checkbox"] {
 .line {
   text-decoration: line-through;
 }
+
+.iframe {
+  border: 0;
+  height: 450px;
+}
