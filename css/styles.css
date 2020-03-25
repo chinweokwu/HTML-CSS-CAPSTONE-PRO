@@ -172,3 +172,7 @@ input[type="checkbox"] {
   border: 0;
   height: 450px;
 }
+
+.image-sizing {
+  max-width: 180px;
+}
