@@ -175,7 +175,7 @@ input[type="checkbox"] {
 
 .iframe {
   border: 0;
-  height: 450px;
+  height: 550px;
 }
 
 .image-sizing {
@@ -188,4 +188,24 @@ input[type="checkbox"] {
 
 .shopping {
   padding: -3px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer .social ul {
+  display: flex;
+  justify-content: space-around;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+.tribute {
+  margin-bottom: 25px;
+}
+
+.bg-tribute {
+  height: 150px;
 }
