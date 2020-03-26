@@ -10,7 +10,7 @@ A video review of this project by Morah Paul on [Loom-click-here](https://www.lo
 
 Additional description about the project and its features.
 
-- The project contains the main page, with a menu link to the list of products page, the   list of products page, each product links to the product page and the product page.
+- The project contains the main page, with a menu link to the list of products page, the list of products page, each product links to the product page and the product page.
 
 - Each of these pages have versions for 2 different screen sizes: 
     - mobile & tablet: up to 1024px

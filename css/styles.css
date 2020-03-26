@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 25px;
+}
+
 .bg-img {
   background: radial-gradient(circle farthest-corner at 75% 0%, #90c92a 0%, #90c92a 45%, #62c30f 45%);
   height: 730px;
@@ -101,6 +105,7 @@ nav a {
 .card-pics {
   width: 400px;
   height: 300px;
+  margin: 0 auto
 }
 
 .love {
@@ -179,4 +184,8 @@ input[type="checkbox"] {
 
 .nava {
   background: radial-gradient(circle farthest-corner at 75% 0%, #90c92a 0%, #90c92a 45%, #62c30f 45%);
+}
+
+.shopping {
+  padding: -3px;
 }
