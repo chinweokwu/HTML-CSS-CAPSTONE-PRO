@@ -53,8 +53,8 @@
         </nav>
 
         <!-- small screen  -->
-        <nav class="container d-lg-none d-sm-block d-md-block justify-content-around">
-            <div class="d-flex justify-content-between">
+        <nav class="container d-none d-lg-none d-sm-block d-md-block d-xs-none justify-content-around">
+            <div class="d-flex justify-content-between small-device">
               <!-- left nav -->
               <div class="logo-section d-flex mt-5">
                 <a href="#">
@@ -67,33 +67,76 @@
               <!-- right nav-->
               <ul class="nav mt-5">
                 <li>
-                  <button class="navbar-toggler border-round" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
+                  <button class="navbar-toggler border-round" type="button" id="dropdownButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
                     <span class=" ">
                       <i class=" fas fa-bars bar text-light"></i>
                     </span>
                   </button>
-                  <div class=" dropdown-menu nava" id="navNavbar" aria-labelledby="dropdownMenuButton">
-                      <ul class="navbar-nav mr-auto ">
+                  <div class=" dropdown-menu nava" aria-labelledby="dropdownButton">
+                    <ul class="navbar-nav mr-auto ">
                       <li><a href="index.html" class=" text-dark dropdown-item">Main Page</a></li>
                       <li><a href="productlist.html" class=" text-dark dropdown-item">Product List</a></li>
-                      <li><a href="productpage.html" class=" text-dark dropdown-item">Product Page</a></li>  
+                      <li><a href="productpage.html" class=" text-dark dropdown-item">Product Page</a></li>
                     </ul>
                   </div>
                 </li>
                 <li class="border-round  text-center ml-3 pt-1">
-                    <a class="nav-link " href="#">
-                      <i class="fas fa-heart text-white "></i>
-                    </a>
-                  </li>
-                  <li class=" border-round bg-danger ml-4 text-center pt-1">
-                    <a class="nav-link" href="#">
-                      <i class="fas fa-shopping-cart  text-light"></i>
-                    </a>
-                  </li>
+                  <a class="nav-link " href="#">
+                    <i class="fas fa-heart text-white "></i>
+                  </a>
+                </li>
+                <li class=" border-round bg-danger ml-4 text-center pt-1">
+                  <a class="nav-link" href="#">
+                    <i class="fas fa-shopping-cart  text-light"></i>
+                  </a>
+                </li>
               </ul>
             </div>
-          </nav>  
+          </nav>
+      
+          <!-- xs -->
+          <nav class="container d-lg-none d-md-none d-sm-none d-xs-block ">
+            
+              <!-- left nav -->
+              <div class="logo-section d-flex mx-auto text-center">
+                <div class="text-center mx-auto">
+                <a href="#">
+                  <i class="fas fa-fan text-light fa-2x p-2 text-center"></i>
+                </a>
+                <a href="index.html" class="text-light ">Fleur flowers</a>
+                </div>
+                </div>
+              <!-- right nav-->
+              
+              <ul class="nav mx-auto text-center justify-content-around">
+                <li class="nav-item">
+                  <button class="navbar-toggler border-round" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <span class=" ">
+                      <i class=" fas fa-bars bar text-light"></i>
+                    </span>
+                  </button>
+                  <div class=" dropdown-menu nava" aria-labelledby="dropdownMenuButton">
+                    <ul class="navbar-nav mr-auto ">
+                      <li><a href="index.html" class=" text-dark dropdown-item">Main Page</a></li>
+                      <li><a href="productlist.html" class=" text-dark dropdown-item">Product List</a></li>
+                      <li><a href="productpage.html" class=" text-dark dropdown-item">Product Page</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="border-round  text-center ml-3 pt-1 nav-item">
+                  <a class="nav-link " href="#">
+                    <i class="fas fa-heart text-white "></i>
+                  </a>
+                </li>
+                <li class=" border-round bg-danger ml-4 text-center pt-1 nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fas fa-shopping-cart  text-light"></i>
+                  </a>
+                </li>
+              </ul>
+          </nav>
       </div>
 
 
@@ -164,7 +207,7 @@
       </main>
 
        <!-- small and medium devices -->
-       <section class="container d-lg-none d-sm-block d-md-block my-5">
+       <section class="container d-none d-lg-none d-sm-block d-md-block d-xs-none  my-5">
           <div class="row mb-5">
             <div class="col">
               <div class="card">
@@ -223,13 +266,81 @@
                          <p class="price ml-2">3490p</p>
                         </div>
                         <div class="mr-5 mb-3">
-                         <button class="form-control price-button bg-danger text-light rounded-pill ml-5">31 wt</button>
+                         <button class="form-control price-button bg-danger text-light rounded-pill ml-5 img-fluid">31 wt</button>
                         </div>
                        </div>
               </div>
             </div>
           </div>
         </section>
+
+
+        <section class="container d-lg-none d-md-block d-sm-none d-xs-block my-5">
+            <div class="row mb-5">
+              <div class="col">
+                <div class="card">
+                    <div class="d-flex justify-content-between">
+                        <div class="mt-5 ml-3">
+                           <i class="fas fa-circle text-success d-block pb-1"></i>
+                           <i class="fas fa-circle circle cc d-block pb-1"></i>
+                           <i class="fas fa-circle circle cc d-block pb-1"></i>
+                        </div>
+                        <div class="mx-auto">
+                        <img src="images/Vase-PNG-Photos-250x300.png" class="mt-5 pt-3 img-fluid" alt="...">
+                      </div>
+                        <div class="mt-5 mr-3">
+                            <div class="green-circle  text-center  pt-3">-50%</div>
+                          </div> 
+                      </div>
+                      <div class="d-flex justify-content-between">
+                          <div class="mt-5 ml-3">
+                          <i class="fas fa-less-than text-secondary" aria-hidden="true"></i>
+                          <i class="fas fa-greater-than text-secondary" aria-hidden="true"></i>
+                        </div>
+                        <p class="mt-5 mr-3">Loremip</p>
+                      </div>
+  
+                      <div class="d-flex justify-content-between">
+                          <h3 class="mt-5 ml-3">flowers Bouqet</h3>
+                          <i class="uil uil-heart mt-5 mr-3 love text-danger"></i>
+                       </div>
+                       <h5 class="ml-3">Loremip:</h5>
+                       <div class="d-flex mt-3 ml-3">
+                           <button class="form-control card-button rounded-pill border border-primary">9 wt</button>
+                           <button class="form-control card-button rounded-pill ml-1 ">15 wt</button>
+                           <button class="form-control card-button rounded-pill ml-1">21 wt</button>
+                           <button class="form-control card-button rounded-pill ml-1">31 wt</button>
+                         </div>
+                         <div class="">
+                             <h5 class="ml-3 pt-3">Loremip:</h5>
+                         </div>
+                         <div class="">
+                         <div class=" mt-3 ml-3">
+                             <i class="fas fa-check-circle fa-2x text-secondary"></i>
+                             <i class="fas fa-circle pl-1 fa-2x text-primary"></i>
+                             <i class="fas fa-circle pl-1 fa-2x text-success"></i>
+                             <i class="fas fa-circle pl-1 fa-2x text-danger"></i>
+                             <i class="fas fa-circle pl-1 fa-2x text-warning"></i>
+                           </div>
+                           <div class="mt-3 pt-1 ml-3">
+                              <h5 class=" ">Loremip:</h5>
+                             <label for="vehicle01" > <input type="checkbox" id="vehicle01"  value="Bike" class=""> bike</label>
+                             <label for="vehicle04" class="pl-3"><input type="checkbox" id="vehicle04"  value="Bike" class=""> bike</label>
+                           </div>
+                         </div>
+                         <div class="d-flex mt-3 mx-auto text-center">
+                           <div class="d-flex text-center">
+                           <p class="text-muted pt-1 line"><small>6890p</small></p>
+                           <p class="price ml-2">3490p</p>
+                          </div>
+                         </div>
+                         <div class="mb-3 mx-auto">
+                            <button class="form-control price-button bg-danger text-light rounded-pill ml-5 img-fluid">31 wt</button>
+                           </div>
+                </div>
+              </div>
+            </div>
+          </section>
         <!-- small and medium devices -->
 
       <section class="d-none d-lg-block mb-5">
@@ -311,9 +422,9 @@
             </section>
               
                 <!-- section map -->
-                <section>
+                <div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.022817277795!2d7.402674314284639!3d10.419762318525988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104d365d9a76a9ed%3A0x2fbeeeeeb4449e7c!2sGonin%20Gora%2C%20Goni%20Gora%2C%20Kaduna!5e0!3m2!1sen!2sng!4v1585101060545!5m2!1sen!2sng" allowfullscreen="" aria-hidden="false" tabindex="0" class="w-100 iframe"></iframe>
-                </section>
+                </div>
                 <!-- section map -->
 
                 <footer class="nava bg-tribute">
