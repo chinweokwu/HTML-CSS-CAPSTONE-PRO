@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.bg-img {
+  background: radial-gradient(circle farthest-corner at 75% 0%, #90c92a 0%, #90c92a 45%, #62c30f 45%);
+  height: 730px;
+  z-index: -1;
+}
+
+.fa-heart {
+  transform: rotate(0deg);
+  animation-name: heartbeat;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+
+  50% {
+    transform: scale(0.6) rotate(0deg);
+  }
+}
+
+.border-round {
+  background-color: #8ed455;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+nav a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.header-button {
+  height: 50px;
+  background: #d8055a;
+}
+
+.flower-vase {
+  position: absolute;
+  right: 100px;
+}
+
+.header-text {
+  margin-top: 130px;
+}
+
+.header-phone {
+  margin-top: 200px;
+  font-size: 20px;
+}
+
+.equlity {
+  color: lightgrey;
+}
+
+.pink-flowers {
+  max-width: 540px;
+  height: 250px;
+  background: #fcfcfc;
+}
+
+.price-tag {
+  font-size: 20px;
+}
+
+.card-button {
+  width: 70px;
+  height: 30px;
+  padding: 0;
+}
+
+.green-circle {
+  width: 50px;
+  height: 50px;
+  background: green;
+  color: white;
+  border-radius: 50%;
+}
+
+.pink-back {
+  background: #fcfcfc;
+}
+
+.bg-imgs {
+  background: radial-gradient(circle farthest-corner at 75% 0%, #90c92a 0%, #90c92a 45%, #62c30f 45%);
+  height: 600px;
+  z-index: -1;
+}
+
+.card-pics {
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.love {
+  font-size: 25px;
+}
+
+.uil-circle {
+  font-size: 10px;
+  color: #8ed455;
+}
+
+.bg-img3 {
+  height: 600px;
+}
+
+.opinion-img {
+  width: 100px;
+  height: 100px;
+}
+
+.uil-facebook-f,
+.uil-whatsapp {
+  font-size: 20px;
+}
+
+.bg-list {
+  background: radial-gradient(circle farthest-corner at 75% 0%, #90c92a 0%, #90c92a 45%, #62c30f 45%);
+  height: 150px;
+  z-index: -1;
+}
+
+.product-button {
+  background: #d8055a;
+  color: whitesmoke;
+}
+
+.cbox {
+  border: 1px solid red;
+}
+
+.fa-canadian-maple-leaf:hover {
+  color: white;
+}
+
+.circle {
+  color: #8ed455;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 15px;
+  vertical-align: middle;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.price-button {
+  width: 200px;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.iframe {
+  border: 0;
+  height: 550px;
+}
+
+.image-sizing {
+  max-width: 180px;
+}
+
+.nava {
+  background: radial-gradient(circle farthest-corner at 75% 0%, #90c92a 0%, #90c92a 45%, #62c30f 45%);
+}
+
+.shopping {
+  padding: -3px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer .social ul {
+  display: flex;
+  justify-content: space-around;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+.tribute {
+  margin-bottom: 25px;
+}
+
+.bg-tribute {
+  height: 200px;
+}
